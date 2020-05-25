@@ -229,7 +229,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'About') {
-      message.author.send('**<a:x3:712913420835356682> | About Menu\n----------------------------\n<a:x4:712913409229979689> | ``%bot`` ⇏ لـعـرض مـعـلـومـات عـن الـبـوت\n\n<a:x4:712913409229979689> | ``%inv`` ⇏ لـدعـوة الـبـوت لـسـيـرفـرك\n\n<a:x4:712913409229979689> | ``%support`` ⇏ لـعـرض سـيـرفـر الـدعـم الـفـنـي\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:71291342083535668> | About Menu\n----------------------------\n<a:x4:712913409229979689> | ``%bot`` ⇏ لـعـرض مـعـلـومـات عـن الـبـوت\n\n<a:x4:712913409229979689> | ``%inv`` ⇏ لـدعـوة الـبـوت لـسـيـرفـرك\n\n<a:x4:712913409229979689> | ``%support`` ⇏ لـعـرض سـيـرفـر الـدعـم الـفـنـي\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -247,7 +247,8 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'support') {
-      message.author.send('**<a:x3:712913420835356682> | Bot Support\n<a:gh:633658827312594959> - https://discord.gg/udbNAWu**').catch(e => console.log(e.stack));
+ /// حط رابط سيرفرك مكان YourServer Here
+      message.author.send('**<a:x3:71291342083535668> | Bot Support\n<a:x3:71291342083535668> - YourServer Here**').catch(e => console.log(e.stack));
  
     }
    }
@@ -266,7 +267,7 @@ if (!message.guild) return message.reply('')
   if (true) {
 if (message.content === prefix+'inv') {
          //ملحوظة هنا شيل كلمة IDHERE وحط ايدي البوت حقك
-      message.author.send('**<a:x3:712913420835356682> | Bot Invite\n<a:gh:633658827312594959> - https://discordapp.com/oauth2/authorize?client_id=IDHERE&permissions=8&scope=bot**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Bot Invite\n<a:x3:71291342083535668> - https://discordapp.com/oauth2/authorize?client_id=IDHERE&permissions=8&scope=bot**').catch(e => console.log(e.stack));
  
     }
    }
@@ -1163,7 +1164,6 @@ client.antibots = new Enmap({name: "antibot"});
 var antibots = client.antibots;
 var julian = client;
 julian.on("message", codes => {
-var prefix = "%";
 if(codes.content == prefix + "antibots on") {
 if(codes.author.bot || !codes.channel.guild || codes.author.id != codes.guild.ownerID) return;
 antibots.set(`${codes.guild.id}`, {
@@ -2504,14 +2504,14 @@ client.on("message", async message => {
         }
       }, 5000);
     } else return undefined;
-  } else if (args[0] == `${prefix}groll`) {
+  } else if (args[0] == `${prefix}reroll`) {
     if (
       message.member.hasPermission("MANAGE_GUILD") ||
       message.member.roles.find(r => r.name == "GIVEAWAYS")
     ) {
       if (!args[1])
         return message.channel.send(
-          `**Usage:** **\`${prefix}groll [giveaway message id]\`**`
+          `**Usage:** **\`${prefix}reroll [giveaway message id]\`**`
         );
       if (isNaN(args[1])) return message.channel.send(`Thats not a message ID`);
       message.channel
