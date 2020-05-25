@@ -722,38 +722,6 @@ client.on("message", message => {
 //////////
 
 
-const dev = ["533944821228896257"]
-
-client.on('message', message => {
-    if (!dev.includes(message.author.id)) return;
-let args = message.content.split(' ').slice(1).join(' ');
-if(message.content.split(' ')[0] == prefix + 'Leave-Prime'){
-    if(message.author.id === '533944821228896257'){
-        if (!args) {
-            message.channel.send("**Where is ID ? H A H A**");
-            return;
-        }
-
-        let server = client.guilds.get(args)
-        if (!server){
-            let embed = new Discord.RichEmbed()
-            .setColor("RANDOM")
-            .setTimestamp()
-            .addField('ana me4 la2y el server dh ?',args)
-            message.channel.sendEmbed(embed).then(msg => {msg.delete(10000)});;   
-        }else{
-        server.leave()    
-                    let embed = new Discord.RichEmbed()
-            .setColor("RANDOM")
-            .setTimestamp()
-            .addField('Done Commander xd',args)
-            message.channel.sendEmbed(embed).then(msg => {msg.delete(10000)});;   
-
-        }
-        
-    }
-    }
-});
 
 
 
@@ -858,7 +826,6 @@ client.on("message", async message => {
 ////
 
 client.on("message", message => {
-  const prefix = "%";
   if (message.author.kick) return;
   if (!message.content.startsWith(prefix)) return;
 
