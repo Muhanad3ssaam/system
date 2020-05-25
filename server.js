@@ -171,7 +171,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Tickets') {
-      message.author.send('**<a:x3:712913420835356682> | Ticket Menu\n----------------------------\n<a:ti:601322589524328458> | ``%new`` ⇏ لأنـشـاء تـذكـرة\n\n<a:ti:601322589524328458> | ``%close`` ⇏ لـقـفـل تـذـكـرة\n\n<a:ti:601322589524328458> | ``%add`` ⇏ لأضـافـة شـخـص للـتـذـكـرة\n\n<a:ti:601322589524328458> | ``%remove`` ⇏ لأزالـة شـخـص مـن الـتـذكـرة\n\n<a:ti:601322589524328458> | ``%close-all`` ⇏ لـقـفـل كـل الـتـذاكـر\n\n<a:ti:601322589524328458> | ``%mtickets`` ⇏ لـتـفـعـيـل واغـلاق خـاصـيـة فـتـح الـتـذاكـر\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Ticket Menu\n----------------------------\n<a:x9:712913388698730497> | ``%new`` ⇏ لأنـشـاء تـذكـرة\n\n<a:x9:712913388698730497> | ``%close`` ⇏ لـقـفـل تـذـكـرة\n\n<a:x9:712913388698730497> | ``%add`` ⇏ لأضـافـة شـخـص للـتـذـكـرة\n\n<a:x9:712913388698730497> | ``%remove`` ⇏ لأزالـة شـخـص مـن الـتـذكـرة\n\n<a:x9:712913388698730497> | ``%mtickets`` ⇏ لـتـفـعـيـل واغـلاق خـاصـيـة فـتـح الـتـذاكـر\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -189,7 +189,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Submit') {
-      message.author.send('**<a:x3:712913420835356682> | Submit Menu\n----------------------------\n<a:s05:652489502161502215> | ``%room1`` ⇏ لأنـشـاء روم الـتـقـديـمـات\n\n<a:s05:652489502161502215> | ``%room2`` ⇏ لأنـشـاء روم الـقـبـول والـرفـض\n\n<a:s05:652489502161502215> | ``%submit`` ⇏ للـتـقـديـم عـلـي رتـبـة\n\n<<a:x13:712913365508292610> | ``%apply @user RoleName`` ⇏ لـقـبـول عـضـو\n\n<a:x30:714394016883540031> | ``%reject @user`` ⇏ لـرفـض عـضـو\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Submit Menu\n----------------------------\n<a:x25:712913343828197447> | ``%room1`` ⇏ لأنـشـاء روم الـتـقـديـمـات\n\n<a:x25:712913343828197447> | ``%room2`` ⇏ لأنـشـاء روم الـقـبـول والـرفـض\n\n<a:x25:712913343828197447> | ``%submit`` ⇏ للـتـقـديـم عـلـي رتـبـة\n\n<a:x13:712913365508292610> | ``%apply @user RoleName`` ⇏ لـقـبـول عـضـو\n\n<a:x30:714394016883540031> | ``%reject @user`` ⇏ لـرفـض عـضـو\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -207,7 +207,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Games') {
-      message.author.send('**<a:x3:712913420835356682> | Game Menu\n----------------------------\n<a:s06:652492076117917696> | ``%hl`` ⇏ لـعـبـة هـل تـعـلـم\n\n<a:s06:652492076117917696> | ``%mr`` ⇏ لـعـبـة مـريـم\n\n<a:s06:652492076117917696> | ``%e7`` ⇏ لـعـبـة احـزر الـفـريـق\n\n<a:s06:652492076117917696> | ``%lw`` ⇏ لـعـبـة لـو خـيـروك\n\n<a:s06:652492076117917696> | ``%3k`` ⇏ لـعـبـة عـقـاب\n\n<a:s06:652492076117917696> | ``%kt`` ⇏ لـعـبـة كـت تـويـت\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Game Menu\n----------------------------\n<a:x10:712913387264409621> | ``%hl`` ⇏ لـعـبـة هـل تـعـلـم\n\n<a:x10:712913387264409621> | ``%mr`` ⇏ لـعـبـة مـريـم\n\n<a:x10:712913387264409621> | ``%e7`` ⇏ لـعـبـة احـزر الـفـريـق\n\n<a:x10:712913387264409621> | ``%lw`` ⇏ لـعـبـة لـو خـيـروك\n\n<a:x10:712913387264409621> | ``%3k`` ⇏ لـعـبـة عـقـاب\n\n<a:x10:712913387264409621> | ``%kt`` ⇏ لـعـبـة كـت تـويـت\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -225,7 +225,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'About') {
-      message.author.send('**<a:x3:712913420835356682> | About Menu\n----------------------------\n<a:s04:652415938771025934> | ``%bot`` ⇏ لـعـرض مـعـلـومـات عـن الـبـوت\n\n<a:s04:652415938771025934> | ``%inv`` ⇏ لـدعـوة الـبـوت لـسـيـرفـرك\n\n<a:s04:652415938771025934> | ``%support`` ⇏ لـعـرض سـيـرفـر الـدعـم الـفـنـي\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | About Menu\n----------------------------\n<a:x4:712913409229979689> | ``%bot`` ⇏ لـعـرض مـعـلـومـات عـن الـبـوت\n\n<a:x4:712913409229979689> | ``%inv`` ⇏ لـدعـوة الـبـوت لـسـيـرفـرك\n\n<a:x4:712913409229979689> | ``%support`` ⇏ لـعـرض سـيـرفـر الـدعـم الـفـنـي\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -505,22 +505,22 @@ if(message.content.startsWith(prefix + "user")) {
     }
     let status;
     if (user.presence.status === 'online') {
-        status = '<a:onl:653268886409576449>';
+        status = '<a:x19:712913361590943780>';
     } else if (user.presence.status === 'dnd') {
-        status = '<a:dnd:653268886887858186>';
+        status = '<a:x15:712913362027282483>';
     } else if (user.presence.status === 'idle') {
-        status = '<a:idle:653268886900441108>';
+        status = '<a:x20:712913361418846229>';
     } else if (user.presence.status === 'offline') {
-        status = '<a:off:653268886208380938>';
+        status = '<a:x18:712913361595007017>';
     }
    
     const embed = new Discord.RichEmbed()
-	.addField('**<a:s01:652414240476626985> | Username: **', `» ${user.username}#${user.discriminator}` ,true)
-	.addField('**<a:s01:652414240476626985> | Playing: **', `» ${game}` ,true)
-	.addField('**<a:s01:652414240476626985> | Status: **', `» ${status}` ,true)
-	.addField('**<a:s01:652414240476626985> | JoinDiscord: **', `» ${joineddiscord}` ,true)
-	.addField('**<a:s01:652414240476626985> | ID: **', `» ${user.id}` ,true)
-	.addField('**<a:s01:652414240476626985> | Bot: **', `» ${user.bot}` ,true)
+	.addField('**<a:x7:712913395170410579> | Username: **', `» ${user.username}#${user.discriminator}` ,true)
+	.addField('**<a:x7:712913395170410579> | Playing: **', `» ${game}` ,true)
+	.addField('**<a:x7:712913395170410579> | Status: **', `» ${status}` ,true)
+	.addField('**<a:x7:712913395170410579> | JoinDiscord: **', `» ${joineddiscord}` ,true)
+	.addField('**<a:x7:712913395170410579> | ID: **', `» ${user.id}` ,true)
+	.addField('**<a:x7:712913395170410579> | Bot: **', `» ${user.bot}` ,true)
   .setFooter(`Copy Right©️ Reserved For: ${client.user.username}Bot™`)
 	     .setThumbnail(user.displayAvatarURL)
 	     .setAuthor(`UserInfo: ${user.username}`, user.displayAvatarURL)
