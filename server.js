@@ -86,7 +86,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Profiles') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -104,7 +104,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Public') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -122,7 +122,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Admin') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -141,7 +141,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Giveaway') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -160,7 +160,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Protection') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -180,7 +180,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Music') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -198,7 +198,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Tickets') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -207,7 +207,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Submit') {
-      message.author.send('**<a:x3:712913420835356682> | Submit Menu\n----------------------------\n<a:s05:652489502161502215> | ``%room1`` ⇏ لأنـشـاء روم الـتـقـديـمـات\n\n<a:s05:652489502161502215> | ``%room2`` ⇏ لأنـشـاء روم الـقـبـول والـرفـض\n\n<a:s05:652489502161502215> | ``%submit`` ⇏ للـتـقـديـم عـلـي رتـبـة\n\n<a:0003:600973089098170368> | ``%apply @user RoleName`` ⇏ لـقـبـول عـضـو\n\n<a:rj:601337828122558468> | ``%reject @user`` ⇏ لـرفـض عـضـو\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Submit Menu\n----------------------------\n<a:s05:652489502161502215> | ``%room1`` ⇏ لأنـشـاء روم الـتـقـديـمـات\n\n<a:s05:652489502161502215> | ``%room2`` ⇏ لأنـشـاء روم الـقـبـول والـرفـض\n\n<a:s05:652489502161502215> | ``%submit`` ⇏ للـتـقـديـم عـلـي رتـبـة\n\n<<a:x13:712913365508292610> | ``%apply @user RoleName`` ⇏ لـقـبـول عـضـو\n\n<a:rj:601337828122558468> | ``%reject @user`` ⇏ لـرفـض عـضـو\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -216,7 +216,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Submit') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -234,7 +234,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'Games') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -252,7 +252,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'About') {
-message.channel.send("<a:0003:600973089098170368> **-** **Done! Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Done! Check Your DM**")
   }
    });
 
@@ -270,7 +270,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'support') {
-message.channel.send("<a:0003:600973089098170368> **-** **Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Check Your DM**")
   }
    });
 
@@ -289,7 +289,7 @@ client.on('message', message => {
     if (message.author.bot) return;
 if (!message.guild) return message.reply('') 
 if (message.content === prefix+'inv') {
-message.channel.send("<a:0003:600973089098170368> **-** **Check Your DM**")
+message.channel.send("<a:x13:712913365508292610> **-** **Check Your DM**")
   }
    });
 ////[ H E L P ]
@@ -479,7 +479,7 @@ client.on("message", message => {
       if(message.content === prefix + "image"){ 
           const embed = new Discord.RichEmbed()
   
-      .setTitle(`<a:0003:600973089098170368> | Avatar Server: ${message.guild.name}`)
+      .setTitle(`<a:x13:712913365508292610> | Avatar Server: ${message.guild.name}`)
   .setAuthor(message.author.username, message.guild.iconrURL)
     .setColor(0x164fe3)
     .setImage(message.guild.iconURL)
@@ -496,7 +496,7 @@ client.on('message', message => {
     if(message.content.startsWith(prefix + "avatar")){
         const embed = new Discord.RichEmbed()
         .setAuthor(mm.user.tag, mm.user.avatarURL)
-        .setTitle("<a:0003:600973089098170368> | Avatar Link")
+        .setTitle("<a:x13:712913365508292610> | Avatar Link")
         .setURL(mm.user.avatarURL)
         .setImage(mm.user.avatarURL)
         .setFooter(`Requested By : ${message.author.tag}`, message.author.avatarURL)
@@ -626,7 +626,7 @@ client.on('message', message => {
   const embed = new Discord.RichEmbed()
  
   .setFooter('Requested by '+message.author.username, message.author.avatarURL)
-  .setDescription(`<a:0003:600973089098170368> **-** **Done Give You This Color**`)
+  .setDescription(`<a:x13:712913365508292610> **-** **Done Give You This Color**`)
  
   .setColor(`${a.hexColor}`)
   message.channel.sendEmbed(embed);
@@ -732,7 +732,7 @@ client.on("message", message => {
     }
 
     message.channel.send(
-      `<a:0003:600973089098170368> **-** **${user.tag} banned from the server ! :airplane: **`
+      `<a:x13:712913365508292610> **-** **${user.tag} banned from the server ! :airplane: **`
     );
   }
 });
@@ -868,7 +868,7 @@ client.on("message", async message => {
     }
 
     message.channel.send(
-      `<a:0003:600973089098170368> **-**  ${user} **has been muted !** :zipper_mouth:`
+      `<a:x13:712913365508292610> **-**  ${user} **has been muted !** :zipper_mouth:`
     );
   }
 });
@@ -922,7 +922,7 @@ client.on("message", message => {
     message.guild.member(user).kick(7, user);
 
     message.channel.send(
-      `<a:0003:600973089098170368> **-** **${user.tag} Kicked From Server**`
+      `<a:x13:712913365508292610> **-** **${user.tag} Kicked From Server**`
     );
   }
 });
@@ -991,7 +991,7 @@ client.on("message", async message => {
 
     await tomute.addRole(muterole.id);
     message.channel.send(
-      "<a:0003:600973089098170368> **-** **has been muted !** :zipper_mouth:"
+      "<a:x13:712913365508292610> **-** **has been muted !** :zipper_mouth:"
     );
     setTimeout(function() {
       tomute.removeRole(muterole.id);
@@ -1031,7 +1031,7 @@ client.on("message", async message => {
 
     await toMute.removeRole(role);
     message.channel.sendMessage(
-      "<a:0003:600973089098170368> **-** **Done unmuted.**"
+      "<a:x13:712913365508292610> **-** **Done unmuted.**"
     );
 
     return;
@@ -1060,7 +1060,7 @@ client.on("message", message => {
       .unban(args)
       .then(m => {
         message.channel.send(
-          `<a:0003:600973089098170368> **-** **Done Unbanned ${m.username}**`
+          `<a:x13:712913365508292610> **-** **Done Unbanned ${m.username}**`
         );
       })
       .catch(stry => {
@@ -1101,7 +1101,7 @@ client.on("message", message => {
       .setNickname(`${nick}`)
       .then(() => {
         message.channel.send(
-          `<a:0003:600973089098170368> | Done changed **${user.user.username}** nickname to **${nick}**`
+          `<a:x13:712913365508292610> | Done changed **${user.user.username}** nickname to **${nick}**`
         );
       })
       .catch(console.error);
@@ -1132,7 +1132,7 @@ client.on("message", message => {
         m.setVoiceChannel(author);
       });
     message.channel.send(
-      `<a:0003:600973089098170368> **-** **Done Move All Members To Your Room**`
+      `<a:x13:712913365508292610> **-** **Done Move All Members To Your Room**`
     );
   }
 });
@@ -1183,7 +1183,7 @@ client.on("message", message => {
     let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(" "), "text");
     message.channel.sendMessage(
-      "<a:0003:600973089098170368> **-** **تــم انـشـاء روم كـتــابــي**"
+      "<a:x13:712913365508292610> **-** **تــم انـشـاء روم كـتــابــي**"
     );
   }
 });
@@ -1198,7 +1198,7 @@ client.on("message", message => {
     let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(" "), "voice");
     message.channel.sendMessage(
-      "<a:0003:600973089098170368> **-** **تــم انـشـاء روم صـوتــي"
+      "<a:x13:712913365508292610> **-** **تــم انـشـاء روم صـوتــي"
     );
   }
 });
@@ -1219,14 +1219,14 @@ onoff: 'On'
 });
  
  
-codes.channel.send("**<a:0003:600973089098170368> | AntiBotsJoin: ON!**");
+codes.channel.send("**<a:x13:712913365508292610> | AntiBotsJoin: ON!**");
 }
 if(codes.content == prefix + "antibots off") {
 if(codes.author.bot || !codes.channel.guild || codes.author.id != codes.guild.ownerID) return;
 antibots.set(`${codes.guild.id}`, {
 onoff: "Off"
 });
-codes.channel.send("**<a:0003:600973089098170368> | AntiBotsJoin: OFF!**");
+codes.channel.send("**<a:x13:712913365508292610> | AntiBotsJoin: OFF!**");
 }
 });
  
@@ -1628,7 +1628,7 @@ client.on("message", async message => {
     message.guild.createChannel(`ticket-${current}`, "text").then(c => {
       tchannels.push(c.id);
       c.setParent(category);
-      message.channel.send(`**<a:0003:600973089098170368> | تـم فـتـح تـذكرتـك**`);
+      message.channel.send(`**<a:x13:712913365508292610> | تـم فـتـح تـذكرتـك**`);
       c.overwritePermissions(message.guild.id, {
         READ_MESSAGES: false,
         SEND_MESSAGES: false
@@ -1655,23 +1655,23 @@ client.on("message", async message => {
     if (args[1] && args[1].toLowerCase() === "enable") {
       mtickets = true;
       message.channel.send(
-        `<a:0003:600973089098170368> | **تـم تـفـعـيـل نـظـام الـتذاكـر**`
+        `<a:x13:712913365508292610> | **تـم تـفـعـيـل نـظـام الـتذاكـر**`
       );
     } else if (args[1] && args[1].toLowerCase() === "disable") {
       mtickets = false;
       message.channel.send(
-        `<a:0003:600973089098170368> | **تـم اغـلاق نـظـام الـتذاكـر**`
+        `<a:x13:712913365508292610> | **تـم اغـلاق نـظـام الـتذاكـر**`
       );
     } else if (!args[1]) {
       if (mtickets === true) {
         mtickets = false;
         message.channel.send(
-          `<a:0003:600973089098170368> | **تـم اغـلاق نـظـام الـتذاكـر**`
+          `<a:x13:712913365508292610> | **تـم اغـلاق نـظـام الـتذاكـر**`
         );
       } else if (mtickets === false) {
         mtickets = true;
         message.channel.send(
-          `<a:0003:600973089098170368> | **تـم تـفـعـيـل نـظـام الـتذاكـر**`
+          `<a:x13:712913365508292610> | **تـم تـفـعـيـل نـظـام الـتذاكـر**`
         );
       }
     }
@@ -1687,7 +1687,7 @@ client.on("message", async message => {
       return message.channel.send(`<a:rj:601337828122558468> | **هـذا لـيـس روم تـيـكـيـت**`);
 
     message.channel.send(
-      `<a:0003:600973089098170368> | **جـاري قـفـل الـروم تـلـقـائـيـا بـعـد 5 ثـوانـي**`
+      `<a:x13:712913365508292610> | **جـاري قـفـل الـروم تـلـقـائـيـا بـعـد 5 ثـوانـي**`
     );
     tchannels.splice(tchannels.indexOf(message.channel.id), 1);
     setTimeout(() => message.channel.delete(), 5000); //لحد هنا
@@ -1714,7 +1714,7 @@ client.on("message", async message => {
       READ_MESSAGE_HISTORY: false
     });
     message.channel.send(
-      `**Done <a:0003:600973089098170368>\nSuccessfully removed \`${member.user.tag}\` from the ticket**`
+      `**Done <a:x13:712913365508292610>\nSuccessfully removed \`${member.user.tag}\` from the ticket**`
     );
   } else if (message.content == prefix + `add`) {
     if (!message.guild.member(client.user).hasPermission("MANAGE_CHANNELS"))
@@ -1739,7 +1739,7 @@ client.on("message", async message => {
       READ_MESSAGE_HISTORY: true
     });
     message.channel.send(
-      `**Done <a:0003:600973089098170368>\nSuccessfully added <@${member.user.id}> to the ticket**`
+      `**Done <a:x13:712913365508292610>\nSuccessfully added <@${member.user.id}> to the ticket**`
     );
   } else if (args[0].toLowerCase() === `${prefix}reeeeeeeeeestart`) {
     if (!devs.includes(message.author.id))
@@ -1748,7 +1748,7 @@ client.on("message", async message => {
       );
     message.channel.send(`:white_check_mark:, **جارى اعادة تشغيل البوت.**`);
     client.destroy();
-  } else if (args[0].toLowerCase() === `${prefix}close-all`) {
+  } else if (args[0].toLowerCase() === `${prefix}closeeeeeeee-alaaaaaaaaaal`) {
     let iq = 0;
     for (let q = 0; q < tchannels.length; q++) {
       let c = message.guild.channels.get(tchannels[q]);
@@ -1759,7 +1759,7 @@ client.on("message", async message => {
       }
       if (q === tchannels.length - 1 || q === tchannels.lengh + 1) {
         message.channel.send(
-          `<a:0003:600973089098170368> | **Done Deleted\`${iq}\` From Tickets.**`
+          `<a:x13:712913365508292610> | **Done Deleted\`${iq}\` From Tickets.**`
         );
       }
     }
@@ -1920,7 +1920,7 @@ client.on("message", message => {
         SEND_MESSAGES: false
       });
     });
-    message.channel.send("<a:0003:600973089098170368> | **تـم انـشـاء روم تـقـديـم**");
+    message.channel.send("<a:x13:712913365508292610> | **تـم انـشـاء روم تـقـديـم**");
   }
 });
 client.on("message", async message => {
@@ -1943,11 +1943,11 @@ client.on("message", async message => {
       if (!role) return message.reply("<a:rj:601337828122558468> | أدخـل اسـم رتـبـة");
       if (!mySupport) return message.reply("<a:rj:601337828122558468> | لـم أجـد هذة الـرتـبـة");
       if (mention.roles.has(mySupport))
-        return message.reply("<a:0003:600973089098170368> | **هـذا الـشـخـص يـمـلـك الـرتـبـة**");
+        return message.reply("<a:x13:712913365508292610> | **هـذا الـشـخـص يـمـلـك الـرتـبـة**");
 
       mention.addRole(mySupport).then(() => {
         acRoom.send(
-          `**[ ${mySupport} ] واعطـاءك رتـبـة ${mention} تـم قـبـولـك  <a:0003:600973089098170368>**`
+          `**[ ${mySupport} ] واعطـاءك رتـبـة ${mention} تـم قـبـولـك  <a:x13:712913365508292610>**`
         );
       });
     }
@@ -1964,7 +1964,7 @@ client.on("message", async message => {
       return;
     if (!mention) return message.reply("<a:rj:601337828122558468> | مـنـشـن الـعـضـو");
 
-    acRoom.send(`<a:0003:600973089098170368> | **${mention} تـم رفـضـك للأسـف**`);
+    acRoom.send(`<a:x13:712913365508292610> | **${mention} تـم رفـضـك للأسـف**`);
   }
 });
 client.on("message", message => {
@@ -1978,7 +1978,7 @@ client.on("message", message => {
         SEND_MESSAGES: false
       });
     });
-    message.channel.send("<a:0003:600973089098170368> | **تـم انـشـاء روم الـقـبـول-الـرفـض**");
+    message.channel.send("<a:x13:712913365508292610> | **تـم انـشـاء روم الـقـبـول-الـرفـض**");
   }
 });
 
@@ -2077,7 +2077,7 @@ const foxitem = foxt[Math.floor(Math.random() * foxt.length)];
 const foxfilter = response => {  
     return foxitem.answers.some(answer => answer.toLowerCase() === response.content.toLowerCase());
 };
-foxm.channel.send('<a:0003:600973089098170368> | **Game Starts**').then(msg => {
+foxm.channel.send('<a:x13:712913365508292610> | **Game Starts**').then(msg => {
  
  const embeda7zr = new Discord.RichEmbed()
  .setColor("RANDOM")
@@ -2092,7 +2092,7 @@ foxm.channel.send(embeda7zr).then(() => {
         .then((collected) => {
                   const foxyembed = new Discord.RichEmbed()
   .setColor("RANDOM")
-  .setDescription('<a:0003:600973089098170368> | **Good You Got Point!**') ///By KillerFox and MEDSPORT
+  .setDescription('<a:x13:712913365508292610> | **Good You Got Point!**') ///By KillerFox and MEDSPORT
    .setFooter(`${collected.first().author}`)
   foxm.channel.sendEmbed(foxyembed);
             let won = collected.first().author;
@@ -2158,7 +2158,7 @@ const zead = [
  client.on('message', message => {
  if (message.content.startsWith('%mr')) {
   var mariam= new Discord.RichEmbed()
-  .setTitle("<a:0003:600973089098170368> | **Game Starts**")
+  .setTitle("<a:x13:712913365508292610> | **Game Starts**")
   .setColor('RANDOM')
   .setDescription(`${zead[Math.floor(Math.random() * zead.length)]}`)
   .setImage("https://www.npa-ar.com/wp-content/uploads/2017/08/%D9%84%D8%B9%D8%A8%D8%A9-%D9%85%D8%B1%D9%8A%D9%85-300x200.jpg")
@@ -2229,7 +2229,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('<a:0003:600973089098170368> | **Game Starts**' ,
+.addField('<a:x13:712913365508292610> | **Game Starts**' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
   }
@@ -2272,7 +2272,7 @@ const cuttweet = [
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL)
- .addField('<a:0003:600973089098170368> | **Game Starts**' ,
+ .addField('<a:x13:712913365508292610> | **Game Starts**' ,
   `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
   message.channel.sendEmbed(embed);
     }
@@ -2313,7 +2313,7 @@ const secre = [
   .setColor('RANDOM')
  
    .setThumbnail(message.author.avatarURL)
- .addField('<a:0003:600973089098170368> | **Game Starts**' ,
+ .addField('<a:x13:712913365508292610> | **Game Starts**' ,
   `${secre[Math.floor(Math.random() * secre.length)]}`)
   message.channel.sendEmbed(embed);
     }
