@@ -207,7 +207,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Submit') {
-      message.author.send('**<a:x3:712913420835356682> | Submit Menu\n----------------------------\n<a:s05:652489502161502215> | ``%room1`` ⇏ لأنـشـاء روم الـتـقـديـمـات\n\n<a:s05:652489502161502215> | ``%room2`` ⇏ لأنـشـاء روم الـقـبـول والـرفـض\n\n<a:s05:652489502161502215> | ``%submit`` ⇏ للـتـقـديـم عـلـي رتـبـة\n\n<<a:x13:712913365508292610> | ``%apply @user RoleName`` ⇏ لـقـبـول عـضـو\n\n<a:rj:601337828122558468> | ``%reject @user`` ⇏ لـرفـض عـضـو\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Submit Menu\n----------------------------\n<a:s05:652489502161502215> | ``%room1`` ⇏ لأنـشـاء روم الـتـقـديـمـات\n\n<a:s05:652489502161502215> | ``%room2`` ⇏ لأنـشـاء روم الـقـبـول والـرفـض\n\n<a:s05:652489502161502215> | ``%submit`` ⇏ للـتـقـديـم عـلـي رتـبـة\n\n<<a:x13:712913365508292610> | ``%apply @user RoleName`` ⇏ لـقـبـول عـضـو\n\n<a:x30:714394016883540031> | ``%reject @user`` ⇏ لـرفـض عـضـو\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -511,7 +511,7 @@ if(message.content.startsWith(prefix + "user")) {
     const joineddiscord = (user.createdAt.getDate() + 1) + '-' + (user.createdAt.getMonth() + 1) + '-' + user.createdAt.getFullYear() + ' | ' + user.createdAt.getHours() + ':' + user.createdAt.getMinutes() + ':' + user.createdAt.getSeconds();
     let game;
     if (user.presence.game === null) {
-        game = '<a:rj:601337828122558468> No Playing.';
+        game = '<a:x30:714394016883540031> No Playing.';
     } else {
         game = user.presence.game.name;
     }
@@ -609,10 +609,10 @@ client.on("message", message => {
  
 client.on('message', message => {
   let args = message.content.split(' ').slice(1);
-  if(message.content.split(' ')[0] == '%color' || message.content.split(' ')[0] == 'لون'){
+  if(message.content.split(' ')[0] == prefix+'color' || message.content.split(' ')[0] == 'لون'){
   const embedd = new Discord.RichEmbed()
   .setFooter('Requested by '+message.author.username, message.author.avatarURL)
-  .setDescription(`<a:rj:601337828122558468> **-** **No Color With This Name/Number **`)
+  .setDescription(`<a:x30:714394016883540031> **-** **No Color With This Name/Number **`)
   .setColor(`ff0000`)
  
   if(!isNaN(args) && args.length > 0)
@@ -671,17 +671,17 @@ client.on("message", message => {
   if (command == "ban") {
     if (!message.channel.guild)
       return message.reply(
-        "<a:rj:601337828122558468> **-** **This command only for servers**"
+        "<a:x30:714394016883540031> **-** **This command only for servers**"
       );
 
     if (!message.guild.member(message.author).hasPermission("BAN_MEMBERS"))
       return message.reply(
-        "<a:rj:601337828122558468> **-** **You Don't Have ` BAN_MEMBERS ` Permission**"
+        "<a:x30:714394016883540031> **-** **You Don't Have ` BAN_MEMBERS ` Permission**"
       );
 
     if (!message.guild.member(client.user).hasPermission("BAN_MEMBERS"))
       return message.reply(
-        "<a:rj:601337828122558468> **-** **I Don't Have ` BAN_MEMBERS ` Permission**"
+        "<a:x30:714394016883540031> **-** **I Don't Have ` BAN_MEMBERS ` Permission**"
       );
 
     let user = message.mentions.users.first();
@@ -698,12 +698,12 @@ client.on("message", message => {
 
     if (!message.guild.member(user).bannable)
       return message.reply(
-        "<a:rj:601337828122558468> **-** **I Don't Have Permission For Ban This User**"
+        "<a:x30:714394016883540031> **-** **I Don't Have Permission For Ban This User**"
       );
 
     if (!time.match(/[1-60][s,m,h,d,w]/g))
       return message.channel.send(
-        "<a:rj:601337828122558468> This Time Is Incorrect"
+        "<a:x30:714394016883540031> This Time Is Incorrect"
       );
 
     if (!Reason) {
@@ -807,17 +807,17 @@ client.on("message", async message => {
 
     if (!message.channel.guild)
       return message.reply(
-        "<a:rj:601337828122558468> **-** **This command only for servers**"
+        "<a:x30:714394016883540031> **-** **This command only for servers**"
       );
 
     if (!message.guild.member(message.author).hasPermission("MUTE_MEMBERS"))
       return message.channel.send(
-        "<a:rj:601337828122558468> **-** **You Don't Have ` MUTE_MEMBERS ` Permission**"
+        "<a:x30:714394016883540031> **-** **You Don't Have ` MUTE_MEMBERS ` Permission**"
       );
 
     if (!message.guild.member(client.user).hasPermission("MUTE_MEMBERS"))
       return message.channel.send(
-        "<a:rj:601337828122558468> **-** **I Don't Have ` MUTE_MEMBERS ` Permission**"
+        "<a:x30:714394016883540031> **-** **I Don't Have ` MUTE_MEMBERS ` Permission**"
       );
 
     let user = message.mentions.users.first();
@@ -834,7 +834,7 @@ client.on("message", async message => {
 
     if (!message.guild.member(user).bannable)
       return message.channel.send(
-        "<a:rj:601337828122558468> **-** **I Don't Have Permission For Mute This User**"
+        "<a:x30:714394016883540031> **-** **I Don't Have Permission For Mute This User**"
       );
 
     if (!Reason) {
@@ -851,7 +851,7 @@ client.on("message", async message => {
     if (time) {
       if (!time.match(/[1-60][s,m,h,d,w]/g))
         return message.channel.send(
-          "<a:rj:601337828122558468>  This Time Is Incorrect"
+          "<a:x30:714394016883540031>  This Time Is Incorrect"
         );
 
       setTimeout(() => {
@@ -888,18 +888,18 @@ client.on("message", message => {
   if (command == "kick") {
     if (!message.channel.guild)
       return message.reply(
-        "<a:rj:601337828122558468> **-** **This command only for servers**"
+        "<a:x30:714394016883540031> **-** **This command only for servers**"
       );
 
     if (!message.guild.member(message.author).hasPermission("KICK_MEMBERS"))
       return message
         .reply(
-          "<a:rj:601337828122558468> **-** **You Don't Have KICK_MEMBERS Permission**"
+          "<a:x30:714394016883540031> **-** **You Don't Have KICK_MEMBERS Permission**"
         )
         .then(msg => msg.delete(5000));
     if (!message.guild.member(client.user).hasPermission("KICK_MEMBERS"))
       return message.reply(
-        "<a:rj:601337828122558468> **-** **I Don't Have KICK_Members Permission**"
+        "<a:x30:714394016883540031> **-** **I Don't Have KICK_Members Permission**"
       );
     let user = message.mentions.users.first();
     let reason = message.content
@@ -916,7 +916,7 @@ client.on("message", message => {
     if (!reason) return message.reply("**Write Reason For Kick.**");
     if (!message.guild.member(user).bannable)
       return message.reply(
-        "<a:rj:601337828122558468> **-** **I Don't Have Permission For Kick This User**"
+        "<a:x30:714394016883540031> **-** **I Don't Have Permission For Kick This User**"
       );
 
     message.guild.member(user).kick(7, user);
@@ -935,17 +935,17 @@ client.on("message", async message => {
   if (!message.content.startsWith(prefix)) return;
   if (!message.channel.guild)
     return message.channel
-      .send("<a:rj:601337828122558468> **-** **This command only for servers**")
+      .send("<a:x30:714394016883540031> **-** **This command only for servers**")
       .then(m => m.delete(5000));
   if (!message.member.hasPermission("MANAGE_ROLES")) return;
   if (!message.guild.member(message.author).hasPermission("MANAGE_ROLES"))
     return message.channel.send(
-      "<a:rj:601337828122558468> **-** **You Don't Have ` MANAGE_ROLES ` Permission**"
+      "<a:x30:714394016883540031> **-** **You Don't Have ` MANAGE_ROLES ` Permission**"
     );
   if (!message.guild.member(client.user).hasPermission("MANAGE_ROLES"))
     return message.channel
       .send(
-        "<a:rj:601337828122558468> **-** **I Don't Have ` MANAGE_ROLES ` Permission**"
+        "<a:x30:714394016883540031> **-** **I Don't Have ` MANAGE_ROLES ` Permission**"
       )
       .then(msg => msg.delete(6000));
   var command = message.content.split(" ")[0];
@@ -961,7 +961,7 @@ client.on("message", async message => {
     if (!tomute) return message.channel.sendEmbed(embed);
     if (tomute.hasPermission("MANAGE_MESSAGES"))
       return message.channel.send(
-        "<a:rj:601337828122558468> **-** **Sorry I Don't Have ` MANAGE_MESSAGE ` Permission"
+        "<a:x30:714394016883540031> **-** **Sorry I Don't Have ` MANAGE_MESSAGE ` Permission"
       );
     let muterole = message.guild.roles.find(`name`, "muted");
     //start of create role
@@ -986,7 +986,7 @@ client.on("message", async message => {
     let mutetime = args[1];
     if (!mutetime)
       return message.channel.send(
-        "<a:rj:601337828122558468>  This Time Is Incorrect"
+        "<a:x30:714394016883540031>  This Time Is Incorrect"
       );
 
     await tomute.addRole(muterole.id);
@@ -1004,13 +1004,13 @@ client.on("message", async message => {
     if (!message.member.hasPermission("MANAGE_ROLES"))
       return message.channel
         .sendMessage(
-          "<a:rj:601337828122558468> **-** **You Don't Have Permission For Unmute This User."
+          "<a:x30:714394016883540031> **-** **You Don't Have Permission For Unmute This User."
         )
         .then(m => m.delete(5000));
     if (!message.guild.member(client.user).hasPermission("MANAGE_ROLES"))
       return message
         .reply(
-          "<a:rj:601337828122558468> **-** **I Don't Have `MANAGE_ROLES` Permission**"
+          "<a:x30:714394016883540031> **-** **I Don't Have `MANAGE_ROLES` Permission**"
         )
         .then(msg => msg.delete(6000));
 
@@ -1019,19 +1019,19 @@ client.on("message", async message => {
       message.guild.members.get(args[0]);
     if (!toMute)
       return message.channel.sendMessage(
-        "<a:rj:601337828122558468> **-** **I can't find this member**"
+        "<a:x30:714394016883540031> **-** **I can't find this member**"
       );
 
     let role = message.guild.roles.find(r => r.name === "muted");
 
     if (!role || !toMute.roles.has(role.id))
       return message.channel.sendMessage(
-        "<a:rj:601337828122558468> **-** **This user not muted**"
+        "<a:x30:714394016883540031> **-** **This user not muted**"
       );
 
     await toMute.removeRole(role);
     message.channel.sendMessage(
-      "<a:x13:712913365508292610> **-** **Done unmuted.**"
+      "<a:x30:714394016883540031> **-** **Done unmuted.**"
     );
 
     return;
@@ -1065,7 +1065,7 @@ client.on("message", message => {
       })
       .catch(stry => {
         message.channel.send(
-          `<a:rj:601337828122558468> **-** **I can't find \`${args}\` in the ban list**`
+          `<a:x30:714394016883540031> **-** **I can't find \`${args}\` in the ban list**`
         );
       });
   }
@@ -1087,14 +1087,14 @@ client.on("message", message => {
     var nick = args.join(" ");
     if (!user || !args)
       return message.channel.send(
-        `**<a:rj:601337828122558468> Write:** ${prefix}setnick \`\`@Name\`\` nickname`
+        `**<a:x30:714394016883540031> Write:** ${prefix}setnick \`\`@Name\`\` nickname`
       );
     if (
       message.guild.member(user.user).highestRole.position >=
       message.guild.member(client.user).highestRole.position
     )
       return message.channel.send(
-        `<a:rj:601337828122558468> | I couldn't update that user. Please check my permissions and role position!`
+        `<a:x30:714394016883540031> | I couldn't update that user. Please check my permissions and role position!`
       );
     message.guild
       .member(user.user)
@@ -1114,15 +1114,15 @@ client.on("message", message => {
   if (message.content.startsWith(prefix + "moveall")) {
     if (!message.member.hasPermission("MOVE_MEMBERS"))
       return message.channel.send(
-        "<a:rj:601337828122558468> **-** **You Dont Have Permssion**"
+        "<a:x30:714394016883540031> **-** **You Dont Have Permssion**"
       );
     if (!message.guild.member(client.user).hasPermission("MOVE_MEMBERS"))
       return message.reply(
-        "<a:rj:601337828122558468> **-** **Check My Permession**"
+        "<a:x30:714394016883540031> **-** **Check My Permession**"
       );
     if (message.member.voiceChannel == null)
       return message.channel.send(
-        `<a:rj:601337828122558468> **-** **Join Voice Room**`
+        `<a:x30:714394016883540031> **-** **Join Voice Room**`
       );
     var author = message.member.voiceChannelID;
     var m = message.guild.members.filter(m => m.voiceChannel);
@@ -1142,7 +1142,7 @@ client.on("message", message => {
 client.on("message", luxy => {
   if (luxy.content === prefix + "mc" || luxy.content === "قفل الشات") {
     if (!luxy.channel.guild)
-      return luxy.reply("<a:rj:601337828122558468> | **This command only for servers**");
+      return luxy.reply("<a:x30:714394016883540031> | **This command only for servers**");
 
     if (!luxy.member.hasPermission("MANAGE_MESSAGES"))
       return luxy.reply("**__عــلــي كــيــف أمــك تــقــفــل الــشــات__**");
@@ -1156,7 +1156,7 @@ client.on("message", luxy => {
   }
   if (luxy.content === prefix + "uc" || luxy.content === "فتح الشات") {
     if (!luxy.channel.guild)
-      return luxy.reply("<a:rj:601337828122558468> | **This command only for servers**");
+      return luxy.reply("<a:x30:714394016883540031> | **This command only for servers**");
 
     if (!luxy.member.hasPermission("MANAGE_MESSAGES"))
       return luxy.reply("**__عــلــي كــيــف أمــك تــفــتــح الــشــات__**");
@@ -1178,7 +1178,7 @@ client.on("message", message => {
   if (command == "ct") {
     if (!message.member.hasPermission("MANAGE_CHANNELS"))
       return message.reply(
-        "<a:rj:601337828122558468> **-** **You Don't Have `MANAGE_CHANNELS` Premissions**"
+        "<a:x30:714394016883540031> **-** **You Don't Have `MANAGE_CHANNELS` Premissions**"
       );
     let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(" "), "text");
@@ -1193,7 +1193,7 @@ client.on("message", message => {
   if (command == "cv") {
     if (!message.member.hasPermission("MANAGE_CHANNELS"))
       return message.reply(
-        "<a:rj:601337828122558468> **-** **You Don't Have `MANAGE_CHANNELS` Premissions**"
+        "<a:x30:714394016883540031> **-** **You Don't Have `MANAGE_CHANNELS` Premissions**"
       );
     let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(" "), "voice");
@@ -1616,11 +1616,11 @@ client.on("message", async message => {
   } else if (args[0].toLowerCase() === `${prefix}new`) {
     if (mtickets === false)
       return message.channel.send(
-        `<a:rj:601337828122558468> | **تـم ايـقـاف الـتـذاكـر بـواسـطة أحـد مـن الادارة**`
+        `<a:x30:714394016883540031> | **تـم ايـقـاف الـتـذاكـر بـواسـطة أحـد مـن الادارة**`
       );
     if (!message.guild.me.hasPermission("MANAGE_CHANNELS"))
       return message.channel.send(
-        `<a:rj:601337828122558468> | **الـبـوت غـيـر قـادر عـلـي صـنـع روم تـحقق مـن الـرتـبـة**`
+        `<a:x30:714394016883540031> | **الـبـوت غـيـر قـادر عـلـي صـنـع روم تـحقق مـن الـرتـبـة**`
       );
     console.log(current);
     let openReason = "";
@@ -1650,7 +1650,7 @@ client.on("message", async message => {
   } else if (args[0].toLowerCase() === `${prefix}mtickets`) {
     if (!message.member.hasPermission("MANAGE_GUILD"))
       return message.channel.send(
-        `<a:rj:601337828122558468> | **هـذا الأمـر للأدارة فـقـط**`
+        `<a:x30:714394016883540031> | **هـذا الأمـر للأدارة فـقـط**`
       );
     if (args[1] && args[1].toLowerCase() === "enable") {
       mtickets = true;
@@ -1678,13 +1678,13 @@ client.on("message", async message => {
   } else if (args[0].toLowerCase() === `${prefix}close`) {
     if (!message.member.hasPermission("MANAGE_GUILD"))
       return message.channel.send(
-        `<a:rj:601337828122558468> | **انـت لـسـت مـن ادارة الـسـيـرفـر لـتـنـفـيذ هذا الأمـر`
+        `<a:x30:714394016883540031> | **انـت لـسـت مـن ادارة الـسـيـرفـر لـتـنـفـيذ هذا الأمـر`
       );
     if (
       !message.channel.name.startsWith("ticket-") &&
       !tchannels.includes(message.channel.id)
     )
-      return message.channel.send(`<a:rj:601337828122558468> | **هـذا لـيـس روم تـيـكـيـت**`);
+      return message.channel.send(`<a:x30:714394016883540031> | **هـذا لـيـس روم تـيـكـيـت**`);
 
     message.channel.send(
       `<a:x13:712913365508292610> | **جـاري قـفـل الـروم تـلـقـائـيـا بـعـد 5 ثـوانـي**`
@@ -1693,11 +1693,11 @@ client.on("message", async message => {
     setTimeout(() => message.channel.delete(), 5000); //لحد هنا
   } else if (message.content == prefix + `remove`) {
     if (!message.channel.name.startsWith("ticket-")) {
-      return message.channel.send(`<a:rj:601337828122558468> | **This command only for the tickets**`);
+      return message.channel.send(`<a:x30:714394016883540031> | **This command only for the tickets**`);
     }
     let member = message.mentions.members.first();
     if (!member || member.id === client.user.id) {
-      return message.channel.send(`<a:rj:601337828122558468> | **Please mention the user**`);
+      return message.channel.send(`<a:x30:714394016883540031> | **Please mention the user**`);
     }
     if (
       !message.channel
@@ -1705,7 +1705,7 @@ client.on("message", async message => {
         .has(["SEND_MESSAGES", "VIEW_CHANNEL", "READ_MESSAGE_HISTORY"])
     ) {
       return message.channel.send(
-        `<a:rj:601337828122558468> | **${member.user.tag}** is not in this ticket to remove them`
+        `<a:x30:714394016883540031> | **${member.user.tag}** is not in this ticket to remove them`
       );
     }
     message.channel.overwritePermissions(member.id, {
@@ -1719,12 +1719,12 @@ client.on("message", async message => {
   } else if (message.content == prefix + `add`) {
     if (!message.guild.member(client.user).hasPermission("MANAGE_CHANNELS"))
       return message.channel.send(
-        `**Error** <a:rj:601337828122558468>\nI Don\'t have MANAGE_CHANNELS Permission to do this`
+        `**Error** <a:x30:714394016883540031>\nI Don\'t have MANAGE_CHANNELS Permission to do this`
       );
     if (!message.channel.name.startsWith("ticket-"))
-      return message.channel.send(`<a:rj:601337828122558468> | **This command only for the tickets**`);
+      return message.channel.send(`<a:x30:714394016883540031> | **This command only for the tickets**`);
     let member = message.mentions.members.first();
-    if (!member) return message.channel.send(`<a:rj:601337828122558468> | **Please mention the user**`);
+    if (!member) return message.channel.send(`<a:x30:714394016883540031> | **Please mention the user**`);
     if (
       message.channel
         .permissionsFor(member)
