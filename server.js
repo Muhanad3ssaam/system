@@ -229,7 +229,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'About') {
-      message.author.send('**<a:x3:71291342083535668> | About Menu\n----------------------------\n<a:x4:712913409229979689> | ``%bot`` ⇏ لـعـرض مـعـلـومـات عـن الـبـوت\n\n<a:x4:712913409229979689> | ``%inv`` ⇏ لـدعـوة الـبـوت لـسـيـرفـرك\n\n<a:x4:712913409229979689> | ``%support`` ⇏ لـعـرض سـيـرفـر الـدعـم الـفـنـي\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | About Menu\n----------------------------\n<a:x4:712913409229979689> | ``%bot`` ⇏ لـعـرض مـعـلـومـات عـن الـبـوت\n\n<a:x4:712913409229979689> | ``%inv`` ⇏ لـدعـوة الـبـوت لـسـيـرفـرك\n\n<a:x4:712913409229979689> | ``%support`` ⇏ لـعـرض سـيـرفـر الـدعـم الـفـنـي\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -248,7 +248,7 @@ if (!message.guild) return message.reply('')
   if (true) {
 if (message.content === prefix+'support') {
  /// حط رابط سيرفرك مكان YourServer Here
-      message.author.send('**<a:x3:71291342083535668> | Bot Support\n<a:x3:71291342083535668> - YourServer Here**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Bot Support\n<a:x3:712913420835356682> - YourServer Here**').catch(e => console.log(e.stack));
  
     }
    }
@@ -267,7 +267,7 @@ if (!message.guild) return message.reply('')
   if (true) {
 if (message.content === prefix+'inv') {
          //ملحوظة هنا شيل كلمة IDHERE وحط ايدي البوت حقك
-      message.author.send('**<a:x3:712913420835356682> | Bot Invite\n<a:x3:71291342083535668> - https://discordapp.com/oauth2/authorize?client_id=IDHERE&permissions=8&scope=bot**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Bot Invite\n<a:x3:712913420835356682> - https://discordapp.com/oauth2/authorize?client_id=IDHERE&permissions=8&scope=bot**').catch(e => console.log(e.stack));
  
     }
    }
@@ -311,39 +311,7 @@ client.on('message', msg => {
 
 
 //////code discrim | تغير التاق /////////
-client.on('message',function(message) {
-  if(!message.channel.guild) return;
 
-    if (message.content === prefix + "diiiscrim") {
-let messageArray = message.content.split(" ");
-let args = messageArray.slice(1);
-
-if (message.author.bot) return;
-
-var discri = args[0]
-let discrim
-if(discri){
-discrim = discri;
-}else{
-discrim = message.author.discriminator;
-}
-if(discrim.length == 1){
-discrim = "000"+discrim
-}
-if(discrim.length == 2){
-discrim = "00"+discrim
-}
-if(discrim.length == 3){
-discrim = "0"+discrim
-}
-
-const users = client.users.filter(user => user.discriminator === discrim).map(user => user.username);
-return message.channel.send(`
-**Found ${users.length} users with the discriminator #${discrim}**
-${users.join('\n')}
-`);
-}
-});
 
 ////////Code server////////
 
