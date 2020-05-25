@@ -28,7 +28,7 @@
     "delay": "^4.3.0",
     "discord-anti-spam": "^2.1.1",
     "discord.js": "^11.5.1",
-    "enmap": "^5.2.3",
+    "enmap": "^4.8.1",
     "express": "^4.17.1",
     "ffmpeg": "^0.0.4",
     "ffmpeg-binaries": "^4.0.0",
@@ -89,7 +89,13 @@
     "canvas-constructor": "^3.1.0",
     "share-js": "^0.0.3",
     "hex.js": "^1.0.1",
-    "quick-dp": "^1.0.2"
+    "to-time": "1.0.2",
+    "countdown": "2.6.0",
+    "winston": "^3.2.1",
+    "ustat": "0.0.2",
+    "cleverbot.io": "^1.0.4",
+    "quick-dp": "^1.0.2",
+    "dbg": "^2.0.1"
   },
   "scripts": {
     "start": "node server.js"

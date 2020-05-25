@@ -10,11 +10,13 @@ dependencies:
   canvas-prebuilt: 1.6.11
   cleverbot.io: 1.0.4
   common-tags: 1.8.0
+  countdown: 2.6.0
   dateformat: 3.0.3
+  dbg: 2.0.1
   delay: 4.3.0
   discord-anti-spam: 2.4.1
   discord.js: 11.6.4
-  enmap: 5.2.4
+  enmap: 4.8.7
   express: 4.17.1
   ffmpeg: 0.0.4
   ffmpeg-binaries: 4.0.0
@@ -68,6 +70,7 @@ dependencies:
   steam-search: 1.0.0
   superagent: 5.2.2
   table: 5.4.6
+  to-time: 1.0.2
   until: 0.1.1
   ustat: 0.0.2
   weather-js: 2.0.0
@@ -942,6 +945,10 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-fPp+8f363qQIhuhLyjI4bu657J/FfMtgiiHKfaTsj3RWDkHlWC1yT7c6kHZDnBxzQVoAINuzg553qKmZ4F1rEw==
+  /bignumber.js/2.4.0:
+    dev: false
+    resolution:
+      integrity: sha1-g4qZLan51zfg9LLbC+YrsJ3Qxeg=
   /binary-extensions/1.13.1:
     dev: false
     engines:
@@ -1671,6 +1678,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  /countdown/2.6.0:
+    dev: false
+    resolution:
+      integrity: sha1-Z3+446nUzE52QVkBuiU7UYrzQXc=
   /crc/3.3.0:
     dev: false
     resolution:
@@ -1786,6 +1797,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
+  /dbg/2.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-7A0O7CIaGsW9sI4m/ILvHfRJrZ4=
   /debug/2.2.0:
     dependencies:
       ms: 0.7.1
@@ -2237,14 +2252,14 @@ packages:
       node: '>=8.0.0'
     resolution:
       integrity: sha512-8MfIfF1/IIfxuc2gv5K+XlFZczw/BpTvqBdl0E2fBLkYQp4miv4LuDTVtYt4yMyaIFLEr4vtaSgV4mjvll8Crw==
-  /enmap/5.2.4:
+  /enmap/4.8.7:
     dependencies:
       lodash: 4.17.15
     dev: false
     peerDependencies:
-      better-sqlite3: ^5.4.1
+      better-sqlite-pool: 'github:eslachance/better-sqlite-pool'
     resolution:
-      integrity: sha512-YulKPmB3t08i1aBDBDgEew9gAWYWXVuGe8S3DLYRQ+E0FoVxTTzo2iSfcEmUX9DRLuKLDMRLRcbRqX5J0z55Uw==
+      integrity: sha512-uDdns7BXSohCQSFO+5RGgJQlgIgKWUHoLY0IPdXmiz90OdlfW+e2SOFAsuaXDCJxdXeKGcJJ9JUvv3wIwF80/Q==
   /entities/1.0.0:
     dev: false
     resolution:
@@ -6386,6 +6401,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-FWtleNAtZ/Ki2qtqej2CXTOayOH9bHDQF+Q48VpWyDXjbYxA4Yz8iDB31zXOBUlOHHKidDbqGVrTUvQMPmBGBw==
+  /to-time/1.0.2:
+    dependencies:
+      bignumber.js: 2.4.0
+    dev: false
+    resolution:
+      integrity: sha1-T4FFoH2F9jVqYuHOoKep5mYXduM=
   /toidentifier/1.0.0:
     dev: false
     engines:
@@ -6995,6 +7016,7 @@ packages:
       node: '>= 0.6.0'
     name: filedb
     resolution:
+      registry: 'https://registry.npmjs.org/'
       tarball: 'https://github.com/jheusala/node-filedb/tarball/master'
     version: 0.0.1
 registry: 'https://registry.npmjs.org/'
@@ -7012,11 +7034,13 @@ specifiers:
   canvas-prebuilt: ^1.6.11
   cleverbot.io: ^1.0.4
   common-tags: ^1.8.0
+  countdown: 2.6.0
   dateformat: ^3.0.3
+  dbg: ^2.0.1
   delay: ^4.3.0
   discord-anti-spam: ^2.1.1
   discord.js: ^11.5.1
-  enmap: ^5.2.3
+  enmap: ^4.8.1
   express: ^4.17.1
   ffmpeg: ^0.0.4
   ffmpeg-binaries: ^4.0.0
@@ -7070,6 +7094,7 @@ specifiers:
   steam-search: ^1.0.0
   superagent: ^5.1.2
   table: ^5.4.6
+  to-time: 1.0.2
   until: ^0.1.1
   ustat: 0.0.2
   weather-js: 2.0.0
