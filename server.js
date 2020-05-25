@@ -76,7 +76,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Profiles') {
-      message.author.send('**<a:x3:712913420835356682> | Profile Menu\n----------------------------\n<a:s4:652413226314629120> | ``%profile`` ⇏ لـعـرض الـبـروفـايـل الـخـاص بـك\n\n<a:s4:652413226314629120> | ``%note`` ⇏ لـوضـع سـيـرة ذاتـيـة لـبـروفـايـلـك\n\n<a:s4:652413226314629120> | ``%rep`` ⇏ لأعطـاء ريـب لـشـخـص\n\n<a:s4:652413226314629120> | ``%xp`` ⇏ لـرؤيـة اللـيـفـل حـقـك\n\n<a:s4:652413226314629120> | ``%credits`` ⇏ لـرؤيـة الـكـريدت الـخـاص بـك\n\n<a:s4:652413226314629120> | ``%daily`` ⇏ لاخـذ حـصـتـك الـيـومـيـة مـن الـكـريدت\n\n<a:s4:652413226314629120> | ``%trans @mention amount`` ⇏ لـتـحويـل كـريدت لشـخـص اخر  \n\n<a:s4:652413226314629120> | ``%store``  ⇏ متجر الخلفيات \n\n<a:s4:652413226314629120> | ``%buy + رقم الخلفية `` ⇏ To buy a background for the profile / لشرء خلفية للبروفايل  \n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Profile Menu\n----------------------------\n<a:x11:712913377508458577> | ``%profile`` ⇏ لـعـرض الـبـروفـايـل الـخـاص بـك\n\n<a:x11:712913377508458577> | ``%note`` ⇏ لـوضـع سـيـرة ذاتـيـة لـبـروفـايـلـك\n\n<a:x11:712913377508458577> | ``%rep`` ⇏ لأعطـاء ريـب لـشـخـص\n\n<a:x11:712913377508458577> | ``%credits`` ⇏ لـرؤيـة الـكـريدت الـخـاص بـك\n\n<a:x11:712913377508458577> | ``%daily`` ⇏ لاخـذ حـصـتـك الـيـومـيـة مـن الـكـريدت\n\n<a:x11:712913377508458577> | ``%trans @mention amount`` ⇏ لـتـحويـل كـريدت لشـخـص اخر\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -95,7 +95,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Public') {
-      message.author.send('**<a:x3:712913420835356682> | Public Menu\n----------------------------\n<a:s1:652413248003637258> | ``%avatar`` ⇏ لـعـرض صـورتـك\n\n<a:s1:652413248003637258> | ``%image`` ⇏ لـعـرض صـورة الـسـيرفـر\n\n<a:s1:652413248003637258> | ``%user`` ⇏ لـرؤيـة مـعـلـومـاتـك \n\n<a:s1:652413248003637258> | ``%server`` ⇏ لـرؤيـة مـعـلـومـات عـن الـسـيـرفـر\n\n<a:s1:652413248003637258> | ``%allbots`` ⇏ لـمـعـرفـة كـم بـوت بالـسـيـرفـر\n\n<a:s1:652413248003637258> | ``%colors`` ⇏ لـعـرض قـائـمـة الألـوان\n\n<a:s1:652413248003637258> | ``%color`` ⇏ لاخـتـيـار لـون فـي الـسـيـرفـر\n----------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Public Menu\n----------------------------\n<a:x1:712913421934395473> | ``%avatar`` ⇏ لـعـرض صـورتـك\n\n<a:x1:712913421934395473> | ``%image`` ⇏ لـعـرض صـورة الـسـيرفـر\n\n<a:x1:712913421934395473> | ``%user`` ⇏ لـرؤيـة مـعـلـومـاتـك \n\n<a:x1:712913421934395473> | ``%server`` ⇏ لـرؤيـة مـعـلـومـات عـن الـسـيـرفـر\n\n<a:x1:712913421934395473> | ``%allbots`` ⇏ لـمـعـرفـة كـم بـوت بالـسـيـرفـر\n\n<a:x1:712913421934395473> | ``%colors`` ⇏ لـعـرض قـائـمـة الألـوان\n\n<a:x1:712913421934395473> | ``%color`` ⇏ لاخـتـيـار لـون فـي الـسـيـرفـر\n----------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -113,7 +113,7 @@ client.on('message', message => {
 if (!message.guild) return message.reply('') 
   if (true) {
 if (message.content === prefix+'Admin') {
-      message.author.send('**<a:x3:712913420835356682> | Admin Menu\n----------------------------\n<a:s2:652413247248662538> | ``%uptime`` ⇏ لـمـعـرفـة كـم صـار الـبـوت شـغـال\n\n<a:s2:652413247248662538> | ``%mute`` ⇏ لأعطـاء مـيـوت كـتـابـي\n\n<a:s2:652413247248662538> | ``%unmute`` ⇏ لـفـك الـمـيـوت الـكـتـابـي\n\n<a:s2:652413247248662538> | ``%kick`` ⇏ لأعـطـاء طـرد لـشـخـص\n\n<a:s2:652413247248662538> | ``%ban`` ⇏ لـتـبـنـيد عـضـو\n\n<a:s2:652413247248662538> | ``%unban`` ⇏ لـفـك الـبـانـد عـن عـضـو\n\n<a:s2:652413247248662538> | ``%setnick`` ⇏ لـتـغـيـر اسـم عـضـو\n\n<a:s2:652413247248662538> | ``%moveall`` ⇏ لـسـحـب جـمـيـع الأعـضـاء للـروم الـصـوتـي\n\n<a:s2:652413247248662538> | ``%mc`` ⇏ لـقـفـل الـشـات\n\n<a:s2:652413247248662538> | ``%uc`` ⇏ لـفـتـح الـشـات\n\n<a:s2:652413247248662538> | ``%ct`` ⇏ لأنـشـاء روم كـتـابـي\n\n<a:s2:652413247248662538> | ``%cv`` ⇏ لأنـشـاء روم صـوتـي\n\n<a:s2:652413247248662538> | ``%clear`` ⇏ لـمـسـح عـدد مـعـيـن مـن الـرسـائـل\n---------------------------**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Admin Menu\n----------------------------\n<a:x2:712913420986351686> | ``%uptime`` ⇏ لـمـعـرفـة كـم صـار الـبـوت شـغـال\n\n<a:x2:712913420986351686> | ``%mute`` ⇏ لأعطـاء مـيـوت كـتـابـي\n\n<a:x2:712913420986351686> | ``%unmute`` ⇏ لـفـك الـمـيـوت الـكـتـابـي\n\n<a:x2:712913420986351686> | ``%kick`` ⇏ لأعـطـاء طـرد لـشـخـص\n\n<a:x2:712913420986351686> | ``%ban`` ⇏ لـتـبـنـيد عـضـو\n\n<a:x2:712913420986351686> | ``%unban`` ⇏ لـفـك الـبـانـد عـن عـضـو\n\n<a:x2:712913420986351686> | ``%setnick`` ⇏ لـتـغـيـر اسـم عـضـو\n\n<a:x2:712913420986351686> | ``%moveall`` ⇏ لـسـحـب جـمـيـع الأعـضـاء للـروم الـصـوتـي\n\n<a:x2:712913420986351686> | ``%mc`` ⇏ لـقـفـل الـشـات\n\n<a:x2:712913420986351686> | ``%uc`` ⇏ لـفـتـح الـشـات\n\n<a:x2:712913420986351686> | ``%ct`` ⇏ لأنـشـاء روم كـتـابـي\n\n<a:x2:712913420986351686> | ``%cv`` ⇏ لأنـشـاء روم صـوتـي\n\n<a:x2:712913420986351686> | ``%clear`` ⇏ لـمـسـح عـدد مـعـيـن مـن الـرسـائـل\n---------------------------**').catch(e => console.log(e.stack));
  
     }
    }
@@ -459,7 +459,7 @@ client.on('message', message => {
         const botssize = message.guild.members.filter(m=>m.user.bot).map(m=>`${i++} - <@${m.id}>`);
           const embed = new Discord.RichEmbed()
           .setAuthor(message.author.tag, message.author.avatarURL)
-          .setDescription(`**<a:s1:652413248003637258> | Found ${message.guild.members.filter(m=>m.user.bot).size} bots inServer**
+          .setDescription(`**<a:x1:712913421934395473> | Found ${message.guild.members.filter(m=>m.user.bot).size} bots inServer**
 ${botssize.join('\n')}`)
 .setFooter(client.user.username, client.user.avatarURL)
 .setTimestamp();
@@ -1775,7 +1775,7 @@ client.on("message", message => {
     let channel = message.guild.channels.find("name", "تـقـديـم");
     if (!channel)
       return message.reply(
-        "<a:rj:601337828122558468> | **Type [ -room 1 ] To Make Room Submit.**"
+        "<a:x30:714394016883540031> | **Type [ -room 1 ] To Make Room Submit.**"
       );
     if (channel) {
       message.channel.send(message.member + ", **:timer:**").then(m => {
@@ -1914,7 +1914,7 @@ client.on("message", message => {
     if (!message.channel.guild) return;
     if (message.author.bot) return;
     if (!message.member.hasPermission("ADMINISTRATOR"))
-      return message.reply("<a:rj:601337828122558468> | **You Don't Have Permission.**");
+      return message.reply("<a:x30:714394016883540031> | **You Don't Have Permission.**");
     message.guild.createChannel("تـقـديـم", "text").then(c => {
       c.overwritePermissions(message.guild.id, {
         SEND_MESSAGES: false
@@ -1934,14 +1934,14 @@ client.on("message", async message => {
     let acRoom = message.guild.channels.find("name", "قـبـول-رفـض");
     if (!acRoom)
       return message.reply(
-        "<a:rj:601337828122558468> | **Type [ -room 2 ] To Make Room Reject or Apply.**"
+        "<a:x30:714394016883540031> | **Type [ -room 2 ] To Make Room Reject or Apply.**"
       );
     if (acRoom) {
       if (!message.guild.member(message.author).hasPermission("MANAGE_ROLES"))
         return;
-      if (!mention) return message.reply("<a:rj:601337828122558468> | مـنـشـن الـعـضـو");
-      if (!role) return message.reply("<a:rj:601337828122558468> | أدخـل اسـم رتـبـة");
-      if (!mySupport) return message.reply("<a:rj:601337828122558468> | لـم أجـد هذة الـرتـبـة");
+      if (!mention) return message.reply("<a:x30:714394016883540031> | مـنـشـن الـعـضـو");
+      if (!role) return message.reply("<a:x30:714394016883540031> | أدخـل اسـم رتـبـة");
+      if (!mySupport) return message.reply("<a:x30:714394016883540031> | لـم أجـد هذة الـرتـبـة");
       if (mention.roles.has(mySupport))
         return message.reply("<a:x13:712913365508292610> | **هـذا الـشـخـص يـمـلـك الـرتـبـة**");
 
@@ -1959,10 +1959,10 @@ client.on("message", async message => {
   if (message.content == prefix + "reject") {
     if (!message.channel.guild) return;
     let acRoom = message.guild.channels.find("name", "قـبـول-رفـض");
-    if (!acRoom) return message.reply("<a:rj:601337828122558468> | **Type [ -room 1 ] To Make Room Submit.**");
+    if (!acRoom) return message.reply("<a:x30:714394016883540031> | **Type [ -room 1 ] To Make Room Submit.**");
     if (!message.guild.member(message.author).hasPermission("MANAGE_ROLES"))
       return;
-    if (!mention) return message.reply("<a:rj:601337828122558468> | مـنـشـن الـعـضـو");
+    if (!mention) return message.reply("<a:x30:714394016883540031> | مـنـشـن الـعـضـو");
 
     acRoom.send(`<a:x13:712913365508292610> | **${mention} تـم رفـضـك للأسـف**`);
   }
@@ -1972,7 +1972,7 @@ client.on("message", message => {
     if (!message.channel.guild) return;
     if (message.author.bot) return;
     if (!message.member.hasPermission("ADMINISTRATOR"))
-      return message.reply("<a:rj:601337828122558468> | **You Don't Have Permission.**");
+      return message.reply("<a:x30:714394016883540031> | **You Don't Have Permission.**");
     message.guild.createChannel("قـبـول-رفـض", "text").then(c => {
       c.overwritePermissions(message.guild.id, {
         SEND_MESSAGES: false
@@ -2099,7 +2099,7 @@ foxm.channel.send(embeda7zr).then(() => {
             pointsfox[won.id].points++; ///By KillerFox and MEDSPORT
           })
           .catch(collected => {
-            foxm.channel.send(`<a:rj:601337828122558468> | **خـلـص الـوقـت**`);
+            foxm.channel.send(`<a:x30:714394016883540031> | **خـلـص الـوقـت**`);
           })
         })
     })
