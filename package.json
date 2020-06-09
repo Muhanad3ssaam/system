@@ -1,5 +1,5 @@
 {
-  "name": "pixel-v1",
+  "name": "mg-v2",
   "version": "1.0.0",
   "description": "Simple shitty music",
   "main": "server.js",
@@ -98,7 +98,7 @@
     "dbg": "^2.0.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node mg.js"
   },
   "skripts": {
     "start": "node music.js"
