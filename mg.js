@@ -2626,7 +2626,7 @@ client.on("message", message => {
   if (message.author.bot) return;
  if(!message.channel.guild)return;
   if (!profile[message.author.id]) profile[message.author.id] = {
-    tite: '-title',
+    tite: '%note',
     rep: 0,
    reps: 'NOT YET',
    lastDaily:'Not Collected',
@@ -2747,8 +2747,8 @@ mentionned.send(` :credit_card: | Transfer Receipt \`\`\`You have received ${arg
       });
  client.on('message', message => {
         let tit = message.content.split(" ").slice(1).join(" ");
-        if(message.content.startsWith(prefix + "title")) {
-        if(!profile[message.author.id].tite) profile[message.author.id].tite = "Hey im using Freedom Bot"
+        if(message.content.startsWith(prefix + "note")) {
+        if(!profile[message.author.id].tite) profile[message.author.id].tite = ""
         if(!tit) {
             message.channel.send("**:large_orange_diamond: -title <something>**");
         } else {
@@ -2764,7 +2764,7 @@ if (err) console.error(err);
   if (message.author.bot) return;
 	if(!message.channel.guild) return;
 if (message.content.startsWith(prefix + "profile")) {
-  message.channel.send("**<a:0003:600973089098170368>|`Show Profile` ➤ **" + `${message.author}`,)
+  message.channel.send("**<a:x13:712913365508292610> |`Show Profile` By ➤ **" + `${message.author}`,)
                                let user = message.mentions.users.first();
          var men = message.mentions.users.first();
             var heg;
