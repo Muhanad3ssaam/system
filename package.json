@@ -91,9 +91,6 @@
     "hex.js": "^1.0.1",
     "to-time": "1.0.2",
     "countdown": "2.6.0",
-    "winston": "^3.2.1",
-    "ustat": "0.0.2",
-    "cleverbot.io": "^1.0.4",
     "quick-dp": "^1.0.2",
     "dbg": "^2.0.1"
   },
