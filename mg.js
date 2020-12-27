@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://pros-betaa.glitch.me/`);
+  http.get(`http://bedecked-whimsical-anglerfish.glitch.me/`);
 }, 280000);
  
 const { Client, RichEmbed } = require("discord.js");
@@ -52,7 +52,7 @@ client.on('ready', () => {
  client.user.setStatus("online")
 });
 client.on('ready', () => {
-     client.user.setActivity("MG | Beta",{type: 'playing'});
+     client.user.setActivity("Zingar Bot|%help",{type: 'playing'});
  
 });
 ////
@@ -248,7 +248,7 @@ if (!message.guild) return message.reply('')
   if (true) {
 if (message.content === prefix+'support') {
  /// حط رابط سيرفرك مكان YourServer Here
-      message.author.send('**<a:x3:712913420835356682> | Bot Support\n<a:x3:712913420835356682> - YourServer Here**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Bot Support\n<a:x3:712913420835356682> - https://discord.gg/Rb9RaSxN6B**').catch(e => console.log(e.stack));
  
     }
    }
@@ -267,7 +267,7 @@ if (!message.guild) return message.reply('')
   if (true) {
 if (message.content === prefix+'inv') {
          //ملحوظة هنا شيل كلمة IDHERE وحط ايدي البوت حقك
-      message.author.send('**<a:x3:712913420835356682> | Bot Invite\n<a:x3:712913420835356682> - https://discordapp.com/oauth2/authorize?client_id=IDHERE&permissions=8&scope=bot**').catch(e => console.log(e.stack));
+      message.author.send('**<a:x3:712913420835356682> | Bot Invite\n<a:x3:712913420835356682> - https://discord.com/api/oauth2/authorize?client_id=792795572167376937&permissions=8&scope=bot**').catch(e => console.log(e.stack));
  
     }
    }
