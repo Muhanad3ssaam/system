@@ -2907,6 +2907,6 @@ client.on("message", message => {
 
 /*
 
-- [       All Copy Right Reserved For: MoJRemGames/MG      ] -
+- [       All Copy Right Reserved For: SlenooYT     ] -
 
 */
